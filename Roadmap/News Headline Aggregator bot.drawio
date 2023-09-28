@@ -1,0 +1,230 @@
+<mxfile host="app.diagrams.net" modified="2023-09-27T15:08:15.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="XXrIb-uYdyBxlku-nvqZ" version="21.8.1" type="google">
+  <diagram name="Problem and RoadMap" id="HOMJsyz6sTo0X9e2iVs4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IXCzru4KtRTM_jymoQDo-4" value="&lt;h1&gt;News Headline Aggregator bot&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="20" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-5" value="" style="group;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="590" y="90" width="530" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-5">
+          <mxGeometry width="530" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="IXCzru4KtRTM_jymoQDo-5" source="IXCzru4KtRTM_jymoQDo-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Problem ve Hedef Belirleme&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Problem:&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Blog sitesi için yazı fikri bulamayan yazarların başka websitelerinde yayınlanan yazılardan konu başlıklarını ilham alması.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Hedef:&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;İlk etapta 5 adet blog sitesinde gün içerisinde yayınlanan yazıların kategori ve başlıklarını alan site url&#39;si ile bir excel dosyası olarak kayde&lt;/font&gt;den ve dosya ismini tarih olarak kaydeden ve bunu belirtilen mail adresine gönderen bir bot.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-5">
+          <mxGeometry x="15" y="20" width="500" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IXCzru4KtRTM_jymoQDo-1" target="IXCzru4KtRTM_jymoQDo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-13" value="" style="group;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="202" y="410" width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-6" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-13">
+          <mxGeometry width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-7" value="1.ADIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-13">
+          <mxGeometry x="185.5" y="50" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-8" value="Blog sitesi seçmek" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-13">
+          <mxGeometry x="150.5" y="100" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-9" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Kategorileri ve makale başlıklarını kazımak istediğiniz beş blog sitesini seçin.&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;Bu sitelerden veri kazıma izniniz olduğundan ve hizmet şartlarına uyduğunuzdan emin olun.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-13">
+          <mxGeometry x="95.5" y="120" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-19" value="" style="group;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="202" y="780" width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-20" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-19">
+          <mxGeometry width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-30" value="" style="group" connectable="0" vertex="1" parent="IXCzru4KtRTM_jymoQDo-19">
+          <mxGeometry x="95.5" y="50" width="275" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-21" value="2.ADIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-30">
+          <mxGeometry x="90" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-22" value="Geliştirme Ortamınızı Kurun" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-30">
+          <mxGeometry x="32.75" y="50" width="209.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-23" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;div&gt;Henüz yüklemediyseniz Python&#39;u yükleyin.&lt;/div&gt;&lt;div&gt;Projeniz için yeni bir dizin oluşturun.&lt;/div&gt;&lt;div&gt;Bağımlılıkları yönetmek için sanal bir ortam kurun.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-30">
+          <mxGeometry y="70" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IXCzru4KtRTM_jymoQDo-6" target="IXCzru4KtRTM_jymoQDo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-31" value="" style="group;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="202" y="1150" width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IXCzru4KtRTM_jymoQDo-31" source="IXCzru4KtRTM_jymoQDo-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-32" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-31">
+          <mxGeometry width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-33" value="" style="group" connectable="0" vertex="1" parent="IXCzru4KtRTM_jymoQDo-31">
+          <mxGeometry x="95.5" y="50" width="275" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-34" value="3.ADIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-33">
+          <mxGeometry x="90" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-35" value="Gerekli Kütüphaneleri Yükleyin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-33">
+          <mxGeometry x="32.75" y="50" width="209.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-36" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;Web kazıma için BeautifulSoup ve Excel dosyalarıyla çalışmak için pandas gibi gerekli Python kütüphanelerini yükleyin.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Bu kütüphaneleri yüklemek için pip kullanabilirsiniz:&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-33">
+          <mxGeometry y="70" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IXCzru4KtRTM_jymoQDo-20" target="IXCzru4KtRTM_jymoQDo-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-39" value="" style="group;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="202" y="1520" width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-40" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-39">
+          <mxGeometry width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-41" value="" style="group" connectable="0" vertex="1" parent="IXCzru4KtRTM_jymoQDo-39">
+          <mxGeometry x="95.5" y="50" width="275" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-42" value="4.ADIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-41">
+          <mxGeometry x="90" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-43" value="Web Kazıma Kodunu Yazma" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-41">
+          <mxGeometry x="32.75" y="50" width="209.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-44" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;Seçilen blog sitelerinden kategorileri ve makale başlıklarını kazıyan bir Python betiği oluşturun.&lt;/div&gt;&lt;div&gt;HTML içeriğini ayrıştırmak ve ilgili verileri ayıklamak için BeautifulSoup&#39;u kullanın.&lt;/div&gt;&lt;div&gt;Verileri sözlük listesi gibi yapılandırılmış bir formatta düzenleyin.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-41">
+          <mxGeometry y="70" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-46" value="" style="group;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="202" y="1890" width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="R_suL6FDGBywKz4GOspR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IXCzru4KtRTM_jymoQDo-46" source="IXCzru4KtRTM_jymoQDo-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="808" y="164.99999999999955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-47" value="--" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-46">
+          <mxGeometry width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-48" value="" style="group" connectable="0" vertex="1" parent="IXCzru4KtRTM_jymoQDo-46">
+          <mxGeometry x="95.5" y="50" width="275" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-51" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;Toplanan verilerden bir DataFrame oluşturmak için pandas kütüphanesini kullanın.&lt;/div&gt;&lt;div&gt;DataFrame&#39;i bir Excel dosyası olarak kaydedin. pandas tarafından sağlanan to_excel işlevini kullanabilirsiniz.&lt;/div&gt;&lt;div&gt;Excel dosyasında kategoriler, makale başlıkları ve site URL&#39;leri için sütunlar bulunduğundan emin olun.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-48">
+          <mxGeometry y="70" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-50" value="Verileri Excel&#39;e Kaydetme" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-46">
+          <mxGeometry x="128.25" y="80" width="209.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-49" value="5.ADIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-46">
+          <mxGeometry x="185.5" y="40" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IXCzru4KtRTM_jymoQDo-40" target="IXCzru4KtRTM_jymoQDo-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-53" value="" style="group;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1520" width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="R_suL6FDGBywKz4GOspR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="IXCzru4KtRTM_jymoQDo-53" source="IXCzru4KtRTM_jymoQDo-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.1764705882356" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-54" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-53">
+          <mxGeometry width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-55" value="" style="group" connectable="0" vertex="1" parent="IXCzru4KtRTM_jymoQDo-53">
+          <mxGeometry x="95.5" y="50" width="275" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-56" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;Python betiğinizi her gün belirli bir saatte çalıştırmak için bir zamanlayıcı (örneğin, Unix tabanlı sistemler için cron) kurun.&lt;/div&gt;&lt;div&gt;Zamanlayıcıyı, her gün yeni veriler toplayarak betiğinizi çalıştıracak şekilde yapılandırın.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-55">
+          <mxGeometry y="70" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-57" value="Botu Programlayın" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-53">
+          <mxGeometry x="128.25" y="80" width="209.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-58" value="7.ADIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-53">
+          <mxGeometry x="185.5" y="40" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-61" value="" style="group;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1890" width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-62" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-61">
+          <mxGeometry width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-65" value="E-posta Gönderimini Uygulayın" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-61">
+          <mxGeometry x="128.25" y="80" width="209.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-66" value="6.ADIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-61">
+          <mxGeometry x="185.5" y="40" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-64" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;E-posta göndermek için Python&#39;un smtplib kütüphanesini kullanın.&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;Excel dosyasını bir e-postaya ekleyen ve belirtilen e-posta adresine gönderen bir işlev yazın.&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;Programlı olarak e-posta göndermek için bir e-posta hesabı (örn. Gmail) kurmanız gerekebilir. Kimlik doğrulama işlemini güvenli bir şekilde yaptığınızdan emin olun&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-61">
+          <mxGeometry x="95.75" y="120" width="274.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-68" value="" style="group;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1150" width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="IXCzru4KtRTM_jymoQDo-68" source="IXCzru4KtRTM_jymoQDo-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.28571428571468" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-69" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-68">
+          <mxGeometry width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-70" value="Test Etme ve Hata Ayıklama" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-68">
+          <mxGeometry x="128.25" y="80" width="209.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-71" value="8.ADIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-68">
+          <mxGeometry x="185.5" y="40" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-72" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;div&gt;Verileri doğru bir şekilde kazıyıp e-postaları doğru bir şekilde gönderdiğinden emin olmak için botunuzu test edin.&lt;/div&gt;&lt;div&gt;Web sitesi değişiklikleri veya e-posta gönderme hataları gibi ortaya çıkabilecek sorunları ele almak için hata işleme uygulayın.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-68">
+          <mxGeometry x="95.75" y="120" width="274.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-75" value="" style="group;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1008" y="780" width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-76" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-75">
+          <mxGeometry x="2" width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-77" value="Dokümantasyon" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-75">
+          <mxGeometry x="128.25" y="80" width="209.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-78" value="9.ADIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-75">
+          <mxGeometry x="185.5" y="40" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-79" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;Botun nasıl çalıştığını ve tamamlandığını anlatın.&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-75">
+          <mxGeometry x="95.75" y="110" width="274.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-82" value="" style="group;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1008" y="400" width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-83" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-82">
+          <mxGeometry x="2" width="466" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-84" value="Bakım ve Güncellemeler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-82">
+          <mxGeometry x="128.25" y="80" width="209.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-85" value="10.ADIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-82">
+          <mxGeometry x="185.5" y="40" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-86" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;Botun performansını izleyin ve gerektiğinde ayarlamalar yapın.&lt;/div&gt;&lt;div&gt;Kazıma kodunuzda güncelleme gerektirebilecek herhangi bir değişiklik için blog sitelerini takip edin.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="IXCzru4KtRTM_jymoQDo-82">
+          <mxGeometry x="95.75" y="110" width="274.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IXCzru4KtRTM_jymoQDo-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IXCzru4KtRTM_jymoQDo-76" target="IXCzru4KtRTM_jymoQDo-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_suL6FDGBywKz4GOspR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IXCzru4KtRTM_jymoQDo-62" target="IXCzru4KtRTM_jymoQDo-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
